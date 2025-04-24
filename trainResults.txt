@@ -1,0 +1,32 @@
+Unique classes in y_train: [0 1 2 3 4]
+Unique classes in y_test: [0 1 2 3 4]
+XGBoost Model Accuracy: 93.99%
+
+XGBoost Classification Report:
+               precision    recall  f1-score   support
+
+     business       0.92      0.93      0.92        95
+entertainment       0.97      0.93      0.95        94
+     politics       0.95      0.88      0.91       106
+        sport       0.95      0.99      0.97       115
+         tech       0.92      0.98      0.95        89
+
+     accuracy                           0.94       499
+    macro avg       0.94      0.94      0.94       499
+ weighted avg       0.94      0.94      0.94       499
+
+SVM Model Accuracy: 98.40%
+
+SVM Classification Report:
+               precision    recall  f1-score   support
+
+     business       0.97      0.97      0.97        95
+entertainment       0.99      1.00      0.99        94
+     politics       0.98      0.96      0.97       106
+        sport       0.99      0.99      0.99       115
+         tech       0.99      1.00      0.99        89
+
+     accuracy                           0.98       499
+    macro avg       0.98      0.98      0.98       499
+ weighted avg       0.98      0.98      0.98       499
+

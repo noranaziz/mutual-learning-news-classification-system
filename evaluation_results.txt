@@ -1,0 +1,60 @@
+### Agent 1 (XGBoost) Evaluation ###
+Accuracy: 90.38%
+               precision    recall  f1-score   support
+
+     business       0.84      0.86      0.85        95
+entertainment       0.96      0.86      0.91        94
+     politics       0.88      0.87      0.87       106
+        sport       0.93      0.99      0.96       115
+         tech       0.92      0.92      0.92        89
+
+     accuracy                           0.90       499
+    macro avg       0.91      0.90      0.90       499
+ weighted avg       0.90      0.90      0.90       499
+
+--------------------------------------------------
+### Agent 2 (SVM) Evaluation ###
+Accuracy: 93.39%
+               precision    recall  f1-score   support
+
+     business       0.87      0.92      0.89        95
+entertainment       0.97      0.91      0.94        94
+     politics       0.91      0.91      0.91       106
+        sport       0.97      0.97      0.97       115
+         tech       0.97      0.97      0.97        89
+
+     accuracy                           0.93       499
+    macro avg       0.93      0.93      0.93       499
+ weighted avg       0.93      0.93      0.93       499
+
+--------------------------------------------------
+### Retrained Agent 1 (XGBoost) Evaluation ###
+Accuracy: 92.59%
+               precision    recall  f1-score   support
+
+     business       0.89      0.89      0.89        95
+entertainment       0.97      0.90      0.93        94
+     politics       0.94      0.86      0.90       106
+        sport       0.93      0.98      0.96       115
+         tech       0.90      0.99      0.94        89
+
+     accuracy                           0.93       499
+    macro avg       0.93      0.93      0.92       499
+ weighted avg       0.93      0.93      0.93       499
+
+--------------------------------------------------
+### Retrained Agent 2 (SVM) Evaluation ###
+Accuracy: 94.79%
+               precision    recall  f1-score   support
+
+     business       0.91      0.91      0.91        95
+entertainment       0.97      0.96      0.96        94
+     politics       0.96      0.92      0.94       106
+        sport       0.95      0.98      0.97       115
+         tech       0.96      0.97      0.96        89
+
+     accuracy                           0.95       499
+    macro avg       0.95      0.95      0.95       499
+ weighted avg       0.95      0.95      0.95       499
+
+--------------------------------------------------
